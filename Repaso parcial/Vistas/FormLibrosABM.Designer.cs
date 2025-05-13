@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnGuardarLista = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -146,11 +147,22 @@
             this.dataGridView1.TabIndex = 11;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
+            // btnGuardarLista
+            // 
+            this.btnGuardarLista.Location = new System.Drawing.Point(5, 254);
+            this.btnGuardarLista.Name = "btnGuardarLista";
+            this.btnGuardarLista.Size = new System.Drawing.Size(116, 23);
+            this.btnGuardarLista.TabIndex = 13;
+            this.btnGuardarLista.Text = "Guardar lista";
+            this.btnGuardarLista.UseVisualStyleBackColor = true;
+            this.btnGuardarLista.Click += new System.EventHandler(this.btnGuardarLista_Click);
+            // 
             // FormLibrosABM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(542, 263);
+            this.ClientSize = new System.Drawing.Size(542, 310);
+            this.Controls.Add(this.btnGuardarLista);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -165,6 +177,7 @@
             this.Controls.Add(this.btnAgregarLibro);
             this.Name = "FormLibrosABM";
             this.Text = "FormLibrosABM";
+            this.Load += new System.EventHandler(this.FormLibrosABM_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -184,5 +197,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnGuardarLista;
     }
 }
