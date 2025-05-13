@@ -54,7 +54,7 @@ namespace Repaso_parcial.Vistas
             FileStream fs2 = new FileStream(path, FileMode.Append, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs2);
             
-            //siempre lector hay un solo un administrador 
+            //siempre lector, hay un solo un administrador 
             sw.WriteLine(txtEmail.Text + ";" + txtPassword.Text + ";" + txtNombre.Text + ";" + "Lector");
             MessageBox.Show("Usuario creado correctamente");
             txtEmail.Clear();

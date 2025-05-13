@@ -136,7 +136,8 @@ namespace Repaso_parcial.Vistas
 
         public void CargarDatos()
         {
-            
+            if (ListaLibros.Instancia.listalibros.Count > 0) return;
+
             string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,@"..\..\Data\Libros.csv");
             FileStream fs = new FileStream(path,FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(fs);

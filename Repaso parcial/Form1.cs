@@ -59,5 +59,11 @@ namespace Repaso_parcial
             FormLibrosABM formLibrosABM = new FormLibrosABM();
             formLibrosABM.ShowDialog();
         }
+
+        private void lecturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormLectura formLectura = new FormLectura();
+            formLectura.ShowDialog();
+        }
     }
 }

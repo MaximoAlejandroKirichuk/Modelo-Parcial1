@@ -59,6 +59,7 @@
             this.lecturaToolStripMenuItem.Name = "lecturaToolStripMenuItem";
             this.lecturaToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.lecturaToolStripMenuItem.Text = "Lectura";
+            this.lecturaToolStripMenuItem.Click += new System.EventHandler(this.lecturaToolStripMenuItem_Click);
             // 
             // aBMUsuToolStripMenuItem
             // 
