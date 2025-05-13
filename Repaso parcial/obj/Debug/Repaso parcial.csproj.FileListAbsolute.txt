@@ -35,3 +35,16 @@ E:\facultad 2025\POO\1-REPASOPARCIAL\Repaso parcial\Repaso parcial\obj\Debug\Rep
 E:\facultad 2025\POO\1-REPASOPARCIAL\Repaso parcial\Repaso parcial\obj\Debug\Repaso parcial.csproj.CoreCompileInputs.cache
 E:\facultad 2025\POO\1-REPASOPARCIAL\Repaso parcial\Repaso parcial\obj\Debug\Repaso parcial.exe
 E:\facultad 2025\POO\1-REPASOPARCIAL\Repaso parcial\Repaso parcial\obj\Debug\Repaso parcial.pdb
+E:\POO (Facu)\PracticasParcial\Repaso parcial\bin\Debug\Repaso parcial.exe.config
+E:\POO (Facu)\PracticasParcial\Repaso parcial\bin\Debug\Repaso parcial.exe
+E:\POO (Facu)\PracticasParcial\Repaso parcial\bin\Debug\Repaso parcial.pdb
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso parcial.csproj.AssemblyReference.cache
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso_parcial.Form1.resources
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso_parcial.Properties.Resources.resources
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso_parcial.Vistas.FormLibrosABM.resources
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso_parcial.Vistas.FormSignup.resources
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso_parcial.Vistas.Login.resources
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso parcial.csproj.GenerateResource.cache
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso parcial.csproj.CoreCompileInputs.cache
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso parcial.exe
+E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso parcial.pdb
