@@ -116,7 +116,6 @@ namespace Repaso_parcial.Vistas
         private void btnGuardarLista_Click(object sender, EventArgs e)
         {
             //siempre creo una nueva lista
-
             List<Libro> listaGuardar = ListaLibros.Instancia.listalibros;
             string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\Data\Libros.csv");
 

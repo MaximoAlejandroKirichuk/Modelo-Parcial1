@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\vistas\\formlibrosabm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\vistas\\formlibrosabm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\vistas\\formabmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\vistas\\formabmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\vistas\\formabmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\vistas\\formabmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\modelos\\listausuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\modelos\\listausuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\vistas\\formsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\vistas\\formsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\vistas\\formlectura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\vistas\\formlectura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|e:\\facultad 2025\\poo\\1-repasoparcial\\repaso parcial\\repaso parcial\\vistas\\formsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24BCDAA-FEC6-462C-BCF7-44884508DEB7}|Repaso parcial\\Repaso parcial.csproj|solutionrelative:repaso parcial\\vistas\\formsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +42,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\Login.cs",
+              "RelativeDocumentMoniker": "Repaso parcial\\Vistas\\Login.cs",
+              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\Login.cs",
+              "RelativeToolTip": "Repaso parcial\\Vistas\\Login.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:40:21.811Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListaUsuarios.cs",
+              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Modelos\\ListaUsuarios.cs",
+              "RelativeDocumentMoniker": "Repaso parcial\\Modelos\\ListaUsuarios.cs",
+              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Modelos\\ListaUsuarios.cs",
+              "RelativeToolTip": "Repaso parcial\\Modelos\\ListaUsuarios.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T02:11:00.607Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -26,15 +81,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormLibrosABM.cs",
-              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormLibrosABM.cs",
-              "RelativeDocumentMoniker": "Repaso parcial\\Vistas\\FormLibrosABM.cs",
-              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormLibrosABM.cs",
-              "RelativeToolTip": "Repaso parcial\\Vistas\\FormLibrosABM.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAkwJwAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\Login.cs",
+              "RelativeDocumentMoniker": "Repaso parcial\\Vistas\\Login.cs",
+              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Repaso parcial\\Vistas\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T23:11:14.788Z",
+              "WhenOpened": "2025-05-15T01:40:20.376Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormLectura.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormLectura.cs",
+              "RelativeDocumentMoniker": "Repaso parcial\\Vistas\\FormLectura.cs",
+              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormLectura.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Repaso parcial\\Vistas\\FormLectura.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:34:38.578Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormABMUsuarios.cs",
+              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormABMUsuarios.cs",
+              "RelativeDocumentMoniker": "Repaso parcial\\Vistas\\FormABMUsuarios.cs",
+              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormABMUsuarios.cs",
+              "RelativeToolTip": "Repaso parcial\\Vistas\\FormABMUsuarios.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAFUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:25:33.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormSignup.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormSignup.cs",
+              "RelativeDocumentMoniker": "Repaso parcial\\Vistas\\FormSignup.cs",
+              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormSignup.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Repaso parcial\\Vistas\\FormSignup.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:21:41.743Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormABMUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormABMUsuarios.cs",
+              "RelativeDocumentMoniker": "Repaso parcial\\Vistas\\FormABMUsuarios.cs",
+              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormABMUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Repaso parcial\\Vistas\\FormABMUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:48:30.878Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "fb2f2068-a452-478c-9120-4c334cab9cf1",
+        "Display": 1,
+        "X": 1,
+        "Y": 1,
+        "Width": 1364,
+        "Height": 718,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormSignup.cs",
+              "DocumentMoniker": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormSignup.cs",
+              "RelativeDocumentMoniker": "Repaso parcial\\Vistas\\FormSignup.cs",
+              "ToolTip": "E:\\facultad 2025\\POO\\1-REPASOPARCIAL\\Repaso parcial\\Repaso parcial\\Vistas\\FormSignup.cs",
+              "RelativeToolTip": "Repaso parcial\\Vistas\\FormSignup.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwD8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:21:43.64Z",
               "EditorCaption": ""
             }
           ]

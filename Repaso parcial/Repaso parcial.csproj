@@ -61,6 +61,12 @@
     <Compile Include="Modelos\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\FormABMUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FormABMUsuarios.Designer.cs">
+      <DependentUpon>FormABMUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\FormLectura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\FormABMUsuarios.resx">
+      <DependentUpon>FormABMUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FormLectura.resx">
       <DependentUpon>FormLectura.cs</DependentUpon>
     </EmbeddedResource>

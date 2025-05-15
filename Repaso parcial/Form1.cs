@@ -65,5 +65,11 @@ namespace Repaso_parcial
             FormLectura formLectura = new FormLectura();
             formLectura.ShowDialog();
         }
+
+        private void aBMUsuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormABMUsuarios formABMUsuarios = new FormABMUsuarios();
+            formABMUsuarios.ShowDialog();
+        }
     }
 }

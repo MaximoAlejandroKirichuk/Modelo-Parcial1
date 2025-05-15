@@ -46,7 +46,8 @@ namespace Repaso_parcial.Vistas
                 
             }
 
-
+            fs.Close();
+            sr.Close();
         }
         public void actualizarGrilla()
         {

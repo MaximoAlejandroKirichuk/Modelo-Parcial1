@@ -66,6 +66,7 @@
             this.aBMUsuToolStripMenuItem.Name = "aBMUsuToolStripMenuItem";
             this.aBMUsuToolStripMenuItem.Size = new System.Drawing.Size(93, 20);
             this.aBMUsuToolStripMenuItem.Text = "ABM Usuarios";
+            this.aBMUsuToolStripMenuItem.Click += new System.EventHandler(this.aBMUsuToolStripMenuItem_Click);
             // 
             // Form1
             // 

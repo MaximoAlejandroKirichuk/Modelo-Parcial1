@@ -49,3 +49,4 @@ E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso parcial.csproj.Co
 E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso parcial.exe
 E:\POO (Facu)\PracticasParcial\Repaso parcial\obj\Debug\Repaso parcial.pdb
 E:\facultad 2025\POO\1-REPASOPARCIAL\Repaso parcial\Repaso parcial\obj\Debug\Repaso_parcial.Vistas.FormLectura.resources
+E:\facultad 2025\POO\1-REPASOPARCIAL\Repaso parcial\Repaso parcial\obj\Debug\Repaso_parcial.Vistas.FormABMUsuarios.resources
