@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -55,11 +55,24 @@
     <Compile Include="Modelos\Administrador.cs" />
     <Compile Include="Modelos\Lector.cs" />
     <Compile Include="Modelos\Libro.cs" />
+    <Compile Include="Modelos\ListaLibros.cs" />
     <Compile Include="Modelos\ListaUsuarios.cs" />
     <Compile Include="Modelos\Persona.cs" />
     <Compile Include="Modelos\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\FormABMUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FormABMUsuarios.Designer.cs">
+      <DependentUpon>FormABMUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FormLectura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FormLectura.Designer.cs">
+      <DependentUpon>FormLectura.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\FormLibrosABM.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +103,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\FormABMUsuarios.resx">
+      <DependentUpon>FormABMUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FormLectura.resx">
+      <DependentUpon>FormLectura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FormLibrosABM.resx">
       <DependentUpon>FormLibrosABM.cs</DependentUpon>
     </EmbeddedResource>

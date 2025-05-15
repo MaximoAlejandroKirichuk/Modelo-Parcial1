@@ -27,8 +27,8 @@ namespace Repaso_parcial.Vistas
 
             string linea = sr.ReadLine();
             string[] vLinea = new string[0];
-            
-            while(linea != null)
+
+            while (linea != null)
             {
                 vLinea = linea.Split(';');
                 //esto sirve para encontrar a la persona dentro del archivo
@@ -37,36 +37,33 @@ namespace Repaso_parcial.Vistas
                 string nombre = vLinea[2];
                 string rol = vLinea[3];
 
-                if (email == txtEmail.Text)
+                if (email == txtEmail.Text && password == txtContrasenia.Text)
                 {
-                    if (password == txtContrasenia.Text)
+                    //no necesito recorrer mas el archivo por eso lo cierro
+                    sr.Close();
+                    fs.Close();
+                    //creo un usuario depende de que rol tenga
+                    Form1 form1 = new Form1();
+                    if (rol == "Administrador")
                     {
-                        //creo un usuario depende de que rol tenga
-                        if (vLinea[3] == "Administrador")
-                        {
-                            Administrador administradorActual = new Administrador(nombre,email,password, rol);
-                            Form1 form1 = new Form1();
-                            form1.UsuarioActivo = administradorActual;
-                            form1.ShowDialog();
-                        }
-
-                        if(vLinea[3] == "Lector")
-                        {
-                            Lector lectorActual = new Lector(nombre, email, password, rol);
-                            Form1 form1 = new Form1();
-                            form1.UsuarioActivo = lectorActual;
-                            form1.ShowDialog();
-
-                        }
-
+                        Administrador administradorActual = new Administrador(nombre, email, password, rol);
+                        form1.UsuarioActivo = administradorActual;
                     }
+
+                    if (rol == "Lector")
+                    {
+                        Lector lectorActual = new Lector(nombre, email, password, rol);
+                        form1.UsuarioActivo = lectorActual;
+                    }
+                    form1.ShowDialog();
+                    return; // Detengo la ejecución acá
+
                 }
                 linea = sr.ReadLine();
             }
-
             sr.Close();
             fs.Close();
-
+            MessageBox.Show("Credenciales incorrectas.");
         }
 
         private void button1_Click(object sender, EventArgs e)

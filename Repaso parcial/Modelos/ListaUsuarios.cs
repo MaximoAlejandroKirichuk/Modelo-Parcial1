@@ -8,12 +8,40 @@ namespace Repaso_parcial.Modelos
 {
     public class ListaUsuarios
     {
-        public static List <Usuario> milista = new List<Usuario>();
+        private static ListaUsuarios _instancia;
 
-        public static void AgregarUsuario(Usuario nuevo)
+        public List<Usuario> listaUsuarios { get; private set; }
+
+
+        private ListaUsuarios()
         {
-            milista.Add(nuevo);
+            listaUsuarios = new List<Usuario>();
         }
+
+        public static ListaUsuarios Instancia
+        {
+            get
+            {
+                if(_instancia == null)
+                {
+                    _instancia = new ListaUsuarios();
+                }
+
+                return _instancia;
+            }
+        }
+
+        public void AgregarUsuario(Usuario nuevo)
+        {
+            listaUsuarios.Add(nuevo);
+        }
+
+        public void EliminarUsuario(int indiceBorrar)
+        {
+            listaUsuarios.RemoveAt(indiceBorrar);
+        }
+        
+      
 
     }
 }

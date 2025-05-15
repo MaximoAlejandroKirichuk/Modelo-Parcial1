@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,13 +19,19 @@ namespace Repaso_parcial.Vistas
         {
             InitializeComponent();
         }
-        List <Libro> listalibros = new List<Libro>();
+        
         public void ActualizarGrilla() 
         {
             dataGridView1.DataSource = null;
-            dataGridView1.DataSource = listalibros;
+            dataGridView1.DataSource = ListaLibros.Instancia.listalibros;
         }
-
+        public void LimpiarTextBox()
+        {
+            txtAnio.Clear();
+            txtAutor.Clear();
+            txtISBN.Clear();
+            txtTitulo.Clear();
+        }
         private void btnAgregarLibro_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtTitulo.Text) || string.IsNullOrEmpty(txtAutor.Text))
@@ -50,13 +58,14 @@ namespace Repaso_parcial.Vistas
             libro.ISBN = isbn;
             libro.Anio = anio;
 
-            if (listalibros.Any(l => l.ISBN == libro.ISBN))
+            if (ListaLibros.Instancia.listalibros.Any(l => l.ISBN == libro.ISBN))
             {
                 MessageBox.Show("Ya existe un libro con ese ISBN, pruebe otro ISBN");
                 return;
             }
 
-            listalibros.Add(libro);
+            ListaLibros.Instancia.listalibros.Add(libro);
+            LimpiarTextBox(); 
             ActualizarGrilla();
             MessageBox.Show("Libro agregado correctamente");
         }
@@ -66,7 +75,7 @@ namespace Repaso_parcial.Vistas
             if(dataGridView1.SelectedRows.Count > 0)
             {
                 int indice = dataGridView1.SelectedRows[0].Index;
-                listalibros.RemoveAt(indice);
+                ListaLibros.Instancia.listalibros.RemoveAt(indice);
                 ActualizarGrilla();
             }
             else
@@ -78,13 +87,14 @@ namespace Repaso_parcial.Vistas
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
+
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 int indice = dataGridView1.SelectedRows[0].Index;
-                Libro libro = listalibros[indice];
-                txtTitulo.Text = libro.Titulo;
-                txtAutor.Text = libro.Autor;
-                txtAnio.Text = libro.Anio.ToString();
+                Libro libro = ListaLibros.Instancia.listalibros[indice];
+                libro.Titulo = txtTitulo.Text ;
+                libro.Autor = txtAutor.Text;
+                libro.Anio = Convert.ToInt32(txtAnio.Text);
                 ActualizarGrilla();
             }
             else
@@ -101,6 +111,59 @@ namespace Repaso_parcial.Vistas
                 int isbnSeleccionado = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["ISBN"].Value);
                 MessageBox.Show("ISBN seleccionado: " + isbnSeleccionado);
             }
+        }
+
+        private void btnGuardarLista_Click(object sender, EventArgs e)
+        {
+            //siempre creo una nueva lista
+            List<Libro> listaGuardar = ListaLibros.Instancia.listalibros;
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\Data\Libros.csv");
+
+            using (FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write))
+            using (StreamWriter sw = new StreamWriter(fs))
+            {
+                // Encabezado 
+                sw.WriteLine("Titulo;Autor;Anio;ISBN");
+
+                // Escribir cada libro como línea CSV
+                foreach (Libro libro in listaGuardar)
+                {
+                    sw.WriteLine($"{libro.Titulo};{libro.Autor};{libro.Anio};{libro.ISBN}");
+                }
+            }
+        }
+
+        public void CargarDatos()
+        {
+            if (ListaLibros.Instancia.listalibros.Count > 0) return;
+
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,@"..\..\Data\Libros.csv");
+            FileStream fs = new FileStream(path,FileMode.Open, FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
+
+            string linea = sr.ReadLine();
+            
+            while ((linea = sr.ReadLine()) != null)
+            {
+                string[] vLinea = linea.Split(';');
+                string titulo = vLinea[0];
+                string autor = vLinea[1];
+                int anio = Convert.ToInt32(vLinea[2]);
+                int isbn = Convert.ToInt32(vLinea[3]);
+                
+
+                Libro nuevoLibro = new Libro(titulo, autor, isbn,anio);
+                ListaLibros.Instancia.agregarLibro(nuevoLibro);
+                
+            }
+
+
+        }
+
+        private void FormLibrosABM_Load(object sender, EventArgs e)
+        {
+            CargarDatos();
+            ActualizarGrilla();
         }
     }
 }
